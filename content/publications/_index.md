@@ -55,7 +55,7 @@ disable_sections = true
 <br>
 
 <div style="max-width: 80%; margin: 0 auto;">
-<h3>Conferences and Journal Papers</h3>
+<h3>Conferences and Journals</h3>
 
 <div style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
 
