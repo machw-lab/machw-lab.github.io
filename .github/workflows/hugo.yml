@@ -2,7 +2,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"] # Ensure this matches your default branch name
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -14,15 +14,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.141.0 # Paige requires at least 0.141.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,25 +27,22 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${{ env:HUGO_VERSION }}
-          extended: true # REQUIRED for Paige
+          hugo-version: '0.141.0'
+          extended: true
 
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.21' # REQUIRED for Hugo Modules
+          go-version: '1.21'
 
       - name: Install Dart Sass
-        run: sudo snap install dart-sass # REQUIRED for Paige
+        run: sudo snap install dart-sass
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
 
       - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --gc \
