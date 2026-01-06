@@ -27,7 +27,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.141.0'
+          hugo-version: 'latest'
           extended: true
 
       - name: Setup Go
@@ -38,16 +38,9 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
       - name: Build with Hugo
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps:pages.outputs.base_url }}/"
+          hugo --gc --minify --baseURL "https://machw-lab.github.io/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -57,7 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps:deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
