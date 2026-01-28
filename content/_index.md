@@ -104,24 +104,24 @@
 <h3>Recent Research</h3>
 <div class="team-grid">
   <div class="team-member">
-    <a href="files/sharp-hotmobile26.pdf">
-      <img src="/images/sharp.png">
+    <a href="https://akarsh-prabhakara.github.io">
+      <img src="/images/sharp.png" alt="Akarsh Prabhakara">
     </a>
-    <a href="files/sharp-hotmobile26.pdf" class="name-link">Privacy of raw streams in cooperative perception</a>
+    <a href="https://akarsh-prabhakara.github.io" class="name-link">Privacy of raw streams in cooperative perception</a>
     <span class="title">HotMobile 2026</span>
   </div>
 
   <div class="team-member">
-    <a href="/files/radarsim-3dv26.pdf">
-      <img src="/images/radar_sim.jpg">
+    <a href="#">
+      <img src="/images/radar_sim.jpg" alt="Xincheng Xie">
     </a>
-    <a href="/files/radarsim-3dv26.pdf" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
+    <a href="#" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
     <span class="title">3D Vision 2026</span>
   </div>
 
   <div class="team-member">
     <a href="/files/grt-iccv25.pdf">
-      <img src="/images/grt.jpg">
+      <img src="/images/grt.jpg" alt="Brian Zheng">
     </a>
     <a href="/files/grt-iccv25.pdf" class="name-link">Foundational Models for mmWave Radars</a>
     <span class="title">ICCV 2025</span>
@@ -129,7 +129,7 @@
 
   <div class="team-member">
     <a href="/files/metamorph-icra25.pdf">
-      <img src="/images/metamorph.png">
+      <img src="/images/metamorph.png" alt="Hongyang Li">
     </a>
     <a href="/files/metamorph-icra25.pdf" class="name-link">Wireless field programming with soft robotics</a>
     <span class="title">ICRA 2025</span>
