@@ -141,7 +141,7 @@
 
 <p>
 <ul>
-<li><em>Feb 26</em>: Congrats to Avery Gump and team for accepted paper at CVPR 26 
+<li><em>Feb 26</em>: Congrats to Avery, Connor and team for accepted paper at CVPR 26 
 <li><em>Dec 25</em>: Congrats to Bangya Liu and team for Sharp @ HotMobile 26 
 <li><em>Nov 25</em>: Congrats to Sally Chen for RadarSim @ 3DV 26
 <li><em>Oct 25</em>: Congrats to Tianshu Huang for GRT oral @ ICCV 25 
