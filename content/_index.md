@@ -114,7 +114,7 @@
     <a href="/">
       <img src="/images/umbra.jpg">
     </a>
-    <a href="/" class="name-link">Inverse pinhole imaging</a>
+    <a href="/" class="name-link">Millimeter wave inverse pinhole imaging</a>
     <span class="title">IEEE Sensors Journal 2026</span>
   </div>
 
