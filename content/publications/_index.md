@@ -43,21 +43,79 @@ disable_sections = true
   }
 </style>
 
-<style>
-  /* This forces the style directly into the HTML head */
-  a {
-    text-decoration: none !important;
-  }
-</style>
-
 <img src="/images/banner.png" alt="Landscape" style="width:100%;" />
 <br>
 <br>
 
 <div style="max-width: 80%; margin: 0 auto;">
-<h3>Conferences and Journals</h3>
+<!-- <h3>Conferences and Journals</h3> -->
 
-<div style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+
+  <!-- Text column -->
+  <div style="flex:1; min-width:250px;">
+    <a href="/">Millimeter Wave Inverse Pinhole Imaging</a><br>Akarsh Prabhakara, Yawen Liu, Aswin Sankaranarayanan, Anthony Rowe, Swarun Kumar<br>
+    <em>IEEE Sensors Journal 2026</em><br>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex:0 0 120px; text-align:center;">
+    <img src="/images/umbra.jpg" alt="Description" style="width:100%; max-width:120px; border-radius:8px;">
+  </div>
+
+</div>
+
+<br>
+
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+
+  <!-- Text column -->
+  <div style="flex:1; min-width:250px;">
+    <a href="/">Measuring multi-site pulse transit time with an AI-enabled mmWave radar</a><br>Jiangyifei Zhu*, Kuang Yuan*, Akarsh Prabhakara, Yunzhi Li, Gongwei Wang, Kelly Michaelsen, Justin Chan, Swarun Kumar<br>
+    <em>CVPR 2026</em><br>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex:0 0 120px; text-align:center;">
+    <img src="/images/polypulse.jpg" alt="Description" style="width:100%; max-width:120px; border-radius:8px;">
+  </div>
+
+</div>
+
+<br>
+
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+
+  <!-- Text column -->
+  <div style="flex:1; min-width:250px;">
+    <a href="/files/deglare-cvpr26.pdf">Ghosts in the Point Clouds: De-glaring LiDAR in the Transient Domain</a><br>Avery Gump*, Connor Henley*, Sungjin Cheong, Akarsh Prabhakara, Mohit Gupta<br>
+    <em>CVPR 2026</em><br>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex:0 0 150px; text-align:center;">
+    <img src="/images/deglare.jpg" alt="Description" style="width:100%; max-width:150px; height:auto; object-fit:contain; border-radius:8px; border:1px solid rgba(0,0,0,0.08);">
+  </div>
+
+</div>
+
+<br>
+
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+  <div style="flex:1; min-width:250px;">
+    <a href="/files/sharp-hotmobile26.pdf">Privacy-Aware Sharing of Raw Spatial Sensor Data for Cooperative Perception</a><br>Bangya Liu, Chengpo Yan, Chenghao Jiang, Suman Banerjee, Akarsh Prabhakara<br>
+    <em>HotMobile 2026</em><br>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex:0 0 120px; text-align:center;">
+    <img src="/images/sharp.png" alt="Description" style="width:100%; max-width:120px; border-radius:8px;">
+  </div>
+</div>
+
+<br>
+
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
 
   <!-- Text column -->
   <div style="flex:1; min-width:250px;">
@@ -111,23 +169,10 @@ disable_sections = true
 
 <br>
 
-<h3>Workshops</h3>
+<!-- <h3>Workshops</h3> -->
 
-<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
 
-  <!-- Text column -->
-  <div style="flex:1; min-width:250px;">
-    <a href="/files/sharp-hotmobile26.pdf">Privacy-Aware Sharing of Raw Spatial Sensor Data for Cooperative Perception</a><br>Bangya Liu, Chengpo Yan, Chenghao Jiang, Suman Banerjee, Akarsh Prabhakara<br>
-    <em>HotMobile 2026</em><br>
-  </div>
 
-  <!-- Image column -->
-  <div style="flex:0 0 120px; text-align:center;">
-    <img src="/images/sharp.png" alt="Description" style="width:100%; max-width:120px; border-radius:8px;">
-  </div>
-
-</div>
-
-<br>
+<!-- <br> -->
 
 </div>

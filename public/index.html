@@ -206,7 +206,7 @@
     
 
 
-<link  crossorigin="anonymous"  href="/css/paige/paige.d483412025c6e287a9e891ff8bc8e9a4963f608f.min.3b5b583ef4a5c7e93743e15582585c9c2a7621b8fef6c9c7ad4bac50e4781f05.css"  integrity="sha256-O1tYPvSlx&#43;k3Q&#43;FVglhcnCp2Ibj&#43;9snHrUusUOR4HwU="   referrerpolicy="no-referrer"  rel="stylesheet">
+<link  crossorigin="anonymous"  href="/css/paige/paige.7e23d244ef5e85429b3d7d7b53589a2c23e6cb81.min.3b5b583ef4a5c7e93743e15582585c9c2a7621b8fef6c9c7ad4bac50e4781f05.css"  integrity="sha256-O1tYPvSlx&#43;k3Q&#43;FVglhcnCp2Ibj&#43;9snHrUusUOR4HwU="   referrerpolicy="no-referrer"  rel="stylesheet">
 
 
 
@@ -938,13 +938,20 @@
   }
 
   .team-member img {
-    width: 100%;
-    max-width: 250px; /* Prevents images from getting too huge on mobile */
-    aspect-ratio: 1 / 1; /* Keeps images uniform if they aren't cropped the same */
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
     transition: transform 0.2s ease;
+    display: block;
+  }
+
+  .team-member img.deglare {
+    object-fit: contain;
+    padding: 16px;
+    background: #ffffff;
   }
 
   .team-member img:hover {
@@ -977,17 +984,38 @@
 <h3>Recent Research</h3>
 <div class="team-grid">
   <div class="team-member">
+    <a href="/">
+      <img src="/images/umbra.jpg">
+    </a>
+    <a href="/" class="name-link">Inverse pinhole imaging</a>
+    <span class="title">IEEE Sensors Journal 2026</span>
+  </div>
+  <div class="team-member">
+    <a href="/">
+      <img src="/images/polypulse.jpg">
+    </a>
+    <a href="/" class="name-link">Multi-site pulse transit time with radars</a>
+    <span class="title">Nature Communications 2026</span>
+  </div>
+  <div class="team-member">
+    <a href="/files/deglare-cvpr26.pdf" style="display:block;">
+      <img src="/images/deglare.jpg" class="deglare" alt="Deglare research image">
+    </a>
+    <a href="/files/deglare-cvpr26.pdf" class="name-link">Solid state lidars have a glare problem, we fix it</a>
+    <span class="title">CVPR 2026</span>
+  </div>
+  <div class="team-member">
     <a href="/files/sharp-hotmobile26.pdf">
       <img src="/images/sharp.png">
     </a>
-    <a href="https://akarsh-prabhakara.github.io" class="name-link">Privacy of raw streams in cooperative perception</a>
+    <a href="/files/sharp-hotmobile26.pdf" class="name-link">Privacy of raw streams in cooperative perception</a>
     <span class="title">HotMobile 2026</span>
   </div>
   <div class="team-member">
     <a href="/files/radarsim-3dv26.pdf">
       <img src="/images/radar_sim.jpg">
     </a>
-    <a href="#" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
+    <a href="/files/radarsim-3dv26.pdf" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
     <span class="title">3D Vision 2026</span>
   </div>
   <div class="team-member">
@@ -1009,7 +1037,10 @@
 <h3>News</h3>
 <p>
 <ul>
-<li><em>Dec 25</em>: Congrats to Bangya Liu and others for Sharp @ HotMobile 26 
+<li><em>May 26</em>: Umbra accepted @ IEEE Sensors Journal 26
+<li><em>Mar 26</em>: Congrats to Jiangyifei, Kuang and team for PolyPulse @ Nature Communications 26
+<li><em>Feb 26</em>: Congrats to Avery, Connor and team for accepted paper at CVPR 26 
+<li><em>Dec 25</em>: Congrats to Bangya Liu and team for Sharp @ HotMobile 26 
 <li><em>Nov 25</em>: Congrats to Sally Chen for RadarSim @ 3DV 26
 <li><em>Oct 25</em>: Congrats to Tianshu Huang for GRT oral @ ICCV 25 
 </ul>
@@ -1023,6 +1054,7 @@ Add a project page for each work
 Add sponsor page
 
  -->
+
         
 
         
@@ -1522,7 +1554,7 @@ Add sponsor page
         
     
 
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","abstract":" Based in the Department of Computer Sciences at the University of Wisconsin–Madison, our research group, MachW Lab, is engineering the future of wireless systems. Our research is in developing high-fidelity sensing and communication technologies that seamlessly bridge the gap between the physical world and autonomous machines. Our work addresses critical challenges across robotics, automotive systems, healthcare, and human-computer interaction. ","inLanguage":"en-us","timeRequired":"PT1M","url":"http://localhost:1313/","wordCount":133}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","abstract":" Based in the Department of Computer Sciences at the University of Wisconsin–Madison, our research group, MachW Lab, is engineering the future of wireless systems. Our research is in developing high-fidelity sensing and communication technologies that seamlessly bridge the gap between the physical world and autonomous machines. Our work addresses critical challenges across robotics, automotive systems, healthcare, and human-computer interaction. ","inLanguage":"en-us","timeRequired":"PT1M","url":"http://localhost:1313/","wordCount":198}</script>
 
 
 

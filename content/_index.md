@@ -61,13 +61,20 @@
   }
 
   .team-member img {
-    width: 100%;
-    max-width: 250px; /* Prevents images from getting too huge on mobile */
-    aspect-ratio: 1 / 1; /* Keeps images uniform if they aren't cropped the same */
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
     transition: transform 0.2s ease;
+    display: block;
+  }
+
+  .team-member img.deglare {
+    object-fit: contain;
+    padding: 16px;
+    background: #ffffff;
   }
 
   .team-member img:hover {
@@ -104,10 +111,34 @@
 <h3>Recent Research</h3>
 <div class="team-grid">
   <div class="team-member">
+    <a href="/">
+      <img src="/images/umbra.jpg">
+    </a>
+    <a href="/" class="name-link">Inverse pinhole imaging</a>
+    <span class="title">IEEE Sensors Journal 2026</span>
+  </div>
+
+  <div class="team-member">
+    <a href="/">
+      <img src="/images/polypulse.jpg">
+    </a>
+    <a href="/" class="name-link">Multi-site pulse transit time with radars</a>
+    <span class="title">Nature Communications 2026</span>
+  </div>
+
+  <div class="team-member">
+    <a href="/files/deglare-cvpr26.pdf" style="display:block;">
+      <img src="/images/deglare.jpg" class="deglare" alt="Deglare research image">
+    </a>
+    <a href="/files/deglare-cvpr26.pdf" class="name-link">Solid state lidars have a glare problem, we fix it</a>
+    <span class="title">CVPR 2026</span>
+  </div>
+
+  <div class="team-member">
     <a href="/files/sharp-hotmobile26.pdf">
       <img src="/images/sharp.png">
     </a>
-    <a href="https://akarsh-prabhakara.github.io" class="name-link">Privacy of raw streams in cooperative perception</a>
+    <a href="/files/sharp-hotmobile26.pdf" class="name-link">Privacy of raw streams in cooperative perception</a>
     <span class="title">HotMobile 2026</span>
   </div>
 
@@ -115,7 +146,7 @@
     <a href="/files/radarsim-3dv26.pdf">
       <img src="/images/radar_sim.jpg">
     </a>
-    <a href="#" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
+    <a href="/files/radarsim-3dv26.pdf" class="name-link">Radar simulators with multimodal (radar + camera) NeRFs</a>
     <span class="title">3D Vision 2026</span>
   </div>
 
@@ -141,6 +172,8 @@
 
 <p>
 <ul>
+<li><em>May 26</em>: Umbra accepted @ IEEE Sensors Journal 26
+<li><em>Mar 26</em>: Congrats to Jiangyifei, Kuang and team for PolyPulse @ Nature Communications 26
 <li><em>Feb 26</em>: Congrats to Avery, Connor and team for accepted paper at CVPR 26 
 <li><em>Dec 25</em>: Congrats to Bangya Liu and team for Sharp @ HotMobile 26 
 <li><em>Nov 25</em>: Congrats to Sally Chen for RadarSim @ 3DV 26
