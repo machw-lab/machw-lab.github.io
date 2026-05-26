@@ -119,10 +119,10 @@
   </div>
 
   <div class="team-member">
-    <a href="/">
+    <a href="/files/polypulse-naturecomms26.pdf">
       <img src="/images/polypulse.jpg">
     </a>
-    <a href="/" class="name-link">Multi-site pulse transit time with radars</a>
+    <a href="/files/polypulse-naturecomms26.pdf" class="name-link">Multi-site pulse transit time with radars</a>
     <span class="title">Nature Communications 2026</span>
   </div>
 
