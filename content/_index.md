@@ -111,7 +111,7 @@
 <h3>Recent Research</h3>
 <div class="team-grid">
   <div class="team-member">
-    <a href="/">
+    <a href="/files/umbra-sensorsj26.pdf">
       <img src="/images/umbra.jpg">
     </a>
     <a href="/" class="name-link">Millimeter wave inverse pinhole imaging</a>
