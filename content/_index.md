@@ -172,6 +172,8 @@
 
 <p>
 <ul>
+<li><em>Oct 26</em>: Xincheng will present a <a href="/files/leakage-demo-mobicom26.pdf">magnetometer-based sensor</a> that boosts the efficiency of electrical fault debugging at MobiCom Demos 2026 in Austin 
+<li><em>Aug 26</em>: <a href="https://research.wisc.edu/2026-recipients-igniting-interdisciplinary-innovation-i%c2%b3-initiative/">Juno</a> is one of the recipients of the I<sup>3</sup> initative
 <li><em>May 26</em>: Umbra accepted @ IEEE Sensors Journal 26
 <li><em>Mar 26</em>: Congrats to Jiangyifei, Kuang and team for PolyPulse @ Nature Communications 26
 <li><em>Feb 26</em>: Congrats to Avery, Connor and team for accepted paper at CVPR 26 

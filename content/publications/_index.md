@@ -53,6 +53,23 @@ disable_sections = true
 <div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
 
   <!-- Text column -->
+  <!-- Text column -->
+  <div style="flex:1; min-width:250px;">
+    <a href="/files/leakage-demo-mobicom26.pdf">Demo: Locating Leakage Current via Magnetometers</a><br>Xincheng Xie, Akarsh Prabhakara<br>
+    <em>ACM MobiCom Demo 2026</em><br>
+  </div>
+
+  <!-- Image column -->
+  <div style="flex:0 0 120px; text-align:center;">
+    <img src="/images/leakage.png" alt="Description" style="width:100%; max-width:120px; border-radius:8px;">
+  </div>
+
+</div>
+
+<br>
+
+<div class="one" style="display:flex; flex-wrap:wrap; align-items:flex-start; gap:50px;">
+
   <div style="flex:1; min-width:250px;">
     <a href="/files/umbra-sensorsj26.pdf">Millimeter Wave Inverse Pinhole Imaging</a><br>Akarsh Prabhakara, Yawen Liu, Aswin Sankaranarayanan, Anthony Rowe, Swarun Kumar<br>
     <em>IEEE Sensors Journal 2026</em><br>
