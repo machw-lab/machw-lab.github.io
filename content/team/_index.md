@@ -167,4 +167,15 @@ disable_sections = true
     </div>
   </div>
 
+  <div class="team-member">
+    <a href="/">
+      <img src="/images/zhaowei.jpg" alt="Zhaowei Zhang">
+    </a>
+    <a href="/" class="name-link">Zhaowei Zhang</a>
+    <div class="info-container">
+      <span class="title">Ph.D. Student</span>
+      <span class="email-address">zzhang3334@wisc.edu</span>
+    </div>
+  </div>
+
 </div>
